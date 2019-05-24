@@ -1,4 +1,4 @@
-class Titles < ActiveRecord::Migration[5.2]
+class Titles < ActiveRecord::Migration
   def change
     create_table :titles do |t|
       t.integer :id
